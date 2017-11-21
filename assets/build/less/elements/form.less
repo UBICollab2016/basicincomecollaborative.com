@@ -1,0 +1,58 @@
+form {
+  input {
+    border: 1px solid @white;
+    margin-bottom: 10px;
+    outline: none;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    text-indent: 15px;
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  label {
+    color: @white;
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+  }
+
+  input[type="checkbox"] {
+    height: 20px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+    width: 20px;
+  }
+
+  .form--checkbox {
+    margin-top: 10px;
+  }
+
+  .form--message {
+    color: @white;
+  }
+}
+
+
+.parsley-error {
+  border-color: @red;
+}
+
+.parsley-errors-list {
+  color: @red;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+  &.filled {
+    margin-bottom: 10px;
+    margin-top: -5px;
+  }
+}

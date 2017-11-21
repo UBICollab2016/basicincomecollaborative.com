@@ -1,0 +1,32 @@
+.content {
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: @max-width;
+  padding-bottom: @padding;
+  padding-left: @padding + 10;
+  padding-right: @padding + 10;
+  padding-top: @padding;
+
+  p {
+    font-size: 18px;
+
+    @media screen and (min-width: 650px) {
+      font-size: 24px
+    }
+  }
+
+  @media screen and (min-width: 650px) {
+    padding-bottom: @padding + 10;
+    padding-top: @padding + 10;
+  }
+
+  @media screen and (min-width: 850px) {
+    padding-bottom: @padding;
+    padding-left: @padding;
+    padding-right: @padding;
+    padding-top: @padding;
+  }
+}
+

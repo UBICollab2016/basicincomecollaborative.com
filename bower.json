@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "0.0.1",
+  "description": "Basic Income Collaborative",
+  "dependencies": {},
+  "devDependencies": {
+    "ajaxchimp": "https://github.com/scdoshi/jquery-ajaxchimp.git",
+    "jquery": "latest",
+    "parsleyjs": "latest",
+    "normalize.css": "latest"
+  }
+}

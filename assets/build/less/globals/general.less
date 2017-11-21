@@ -1,0 +1,54 @@
+*:before,
+&:after {
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+html,
+html a {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.006);
+}
+
+body {
+  background: @knight;
+  color: @font-color;
+  font-family: @muli;
+  font-size: @font-size;
+  font-weight: 100;
+  line-height: @line-height;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a,
+a:link,
+a:visited {
+  color: @font-color;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 1.2;
+
+  @media screen and (min-width: 650px) {
+    font-size: 30px;
+  }
+
+  @media screen and (min-width: 850px) {
+    font-size: 40px;
+  }
+}

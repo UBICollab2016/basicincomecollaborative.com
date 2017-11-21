@@ -1,0 +1,24 @@
+.btn {
+  border: 0;
+  cursor: pointer;
+  display: block;
+  font-family: @muli;
+  font-weight: 900;
+  outline: none;
+  padding-bottom: @padding - 10;
+  padding-top: @padding - 10;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  width: 100%;
+
+  &.btn--blue {
+    background-color: @blue;
+    color: @white;
+
+    &:hover {
+      background-color: darken(@blue, 10%);
+    }
+  }
+}
+
